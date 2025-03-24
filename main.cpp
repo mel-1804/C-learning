@@ -3,6 +3,29 @@
 #include <cmath>
 using namespace std;
 
+// EJEMPLOS DE PROCEDIMIENTOS...............................................................
+// void bienvenida()
+// {
+//     cout << "Bienvenido al juego" << endl;
+//     cout << "PrepArese para jugar" << endl;
+// }
+// void edad()
+// {
+//     cout << "Introduzca su edad";
+//     int a;
+//     cin >> a;
+//     cout << "Su edad es " << a << "." << endl;
+// }
+
+// EJEMPLOS DE FUNCIONES......................................................................
+double maximo(double a, double b)
+{
+    if (a > b)
+        return a;
+    else
+        return b;
+}
+
 int main()
 {
     // cout << "Hola, mundo!" << endl;
@@ -176,25 +199,40 @@ int main()
 
     // EJERCICIO MATH OPERATIONS (BUCLE WHILE)
     // para imponer condicion de decimales:
-    cout.setf(ios::fixed);
-    // imponer condición de estrictamente 2 decimales:
-    cout.precision(2);
+    // cout.setf(ios::fixed);
+    // // imponer condición de estrictamente 2 decimales:
+    // cout.precision(2);
 
-    string word; // el tipo de operación
-    double a, b; // los números a operar
-    while (cin >> word and word != "parar")
+    // string word; // el tipo de operación
+    // double a, b; // los números a operar
+    // while (cin >> word and word != "parar")
+    // {
+    //     cin >> a;
+    //     if (word == "cambio")
+    //         cout << a * -1; //  si el tipo de operacion es cambio
+    //     else
+    //     { //  si no es cambio
+    //         cin >> b;
+    //         if (word == "suma")
+    //             cout << a + b; // si es suma
+    //         else if (word == "resta")
+    //             cout << a - b; // si es resta
+    //     }
+    //     cout << endl;
+    // }
+
+    // FUNCIONES Y PROCEDIMIENTOS.........................................................
+    // LLAMANDO PROCEDIMIENTOS, sin cout
+    // bienvenida();
+    // edad();
+    // LLAMANDO FUNCIONES, con cout y definiendo variables (parametros)
+    // double n;
+    // double y;
+    // cin >> n >> y;
+    // cout << "el numero mayor es " << maximo(n, y) << endl;
+
+    // PASAR POR REFERENCIA
+    void swap2(int &a, int &b)
     {
-        cin >> a;
-        if (word == "cambio")
-            cout << a * -1; //  si el tipo de operacion es cambio
-        else
-        { //  si no es cambio
-            cin >> b;
-            if (word == "suma")
-                cout << a + b; // si es suma
-            else if (word == "resta")
-                cout << a - b; // si es resta
-        }
-        cout << endl;
     }
 }
