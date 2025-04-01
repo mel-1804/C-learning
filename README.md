@@ -8,11 +8,7 @@ Este repositorio contiene mi proceso de aprendizaje en C++, centrado en el desar
 
 Fundamentos de C++: Sintaxis, variables, control de flujo y funciones.
 
-Estructuras de Datos: Listas enlazadas, pilas, colas, árboles, etc.
-
-Algoritmos: Búsqueda, ordenamiento, recursión, programación dinámica.
-
-Ejercicios y Desafíos: Problemas prácticos y retos de plataformas como HackerRank y LeetCode.
+Estructuras de Datos:vectores, matrices y tuplas.
 
 ## Tecnologías Utilizadas
 
